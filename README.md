@@ -45,3 +45,7 @@ deactivate
 
 ## CONTACT 📞
 For any questions, contact me here on Github, at gavinkiosco@gmail.com via email, or cryptict1tan on Discord.
+
+## ATTRIBUTION ©️
+- ISS Locator API: http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+- Geopy API: https://github.com/geopy/geopy
