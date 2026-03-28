@@ -12,7 +12,7 @@ Python program to locate the International Space Station at regular intervals.
 ## INSTALLATION ⚙️
 Clone the repository while in your desired directory:
 ```bash
-git clone https://github.com/CrypticT1tan/.git
+git clone https://github.com/CrypticT1tan/iss-locator.git
 ```
 Navigate to the repository directory to begin using it.
 
