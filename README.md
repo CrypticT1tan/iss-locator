@@ -32,6 +32,7 @@ Use package manager pip to install the following:
 ```bash
 pip install requests
 pip install geopy
+pip install countryflags
 ```
 
 ## USAGE 🔧
@@ -49,3 +50,4 @@ For any questions, contact me here on Github, at gavinkiosco@gmail.com via email
 ## ATTRIBUTION ©️
 - ISS Locator API: http://open-notify.org/Open-Notify-API/ISS-Location-Now/
 - Geopy API: https://github.com/geopy/geopy
+- Countryflag: https://pypi.org/project/countryflag/
