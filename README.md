@@ -33,6 +33,7 @@ Use package manager pip to install the following:
 pip install requests
 pip install geopy
 pip install countryflags
+pip install desktop-notifier
 ```
 
 ## USAGE 🔧
