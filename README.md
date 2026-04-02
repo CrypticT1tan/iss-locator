@@ -51,3 +51,4 @@ For any questions, contact me here on Github, at gavinkiosco@gmail.com via email
 - ISS Locator API: http://open-notify.org/Open-Notify-API/ISS-Location-Now/
 - Geopy API: https://github.com/geopy/geopy
 - Countryflag: https://pypi.org/project/countryflag/
+- Desktop Notifier: https://github.com/samschott/desktop-notifier
