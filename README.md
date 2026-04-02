@@ -1,6 +1,6 @@
 # ISS LOCATOR 🛰️
 
-Python program to locate the International Space Station at regular intervals. 
+Python program to locate the International Space Station. Can be scripted to run at regular intervals.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
@@ -8,6 +8,8 @@ Python program to locate the International Space Station at regular intervals.
 --- 
 
 ## FEATURES 🌟
+- Locates the International Space Station using coordinates converted to a physical address
+- File is scriptable to run at customizable intervals on both Mac and Windows
 
 ## INSTALLATION ⚙️
 Clone the repository while in your desired directory:
