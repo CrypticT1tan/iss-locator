@@ -10,6 +10,7 @@ Python program to locate the International Space Station. Can be scripted to run
 ## FEATURES 🌟
 - Locates the International Space Station using coordinates converted to a physical address
 - File is scriptable to run at customizable intervals on both Mac and Windows
+- Sends desktop notifications of the ISS current location to the user whenever the script is run
 
 ## INSTALLATION ⚙️
 Clone the repository while in your desired directory:
