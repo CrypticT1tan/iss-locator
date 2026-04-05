@@ -32,19 +32,6 @@ def get_location(lat, long) -> str:
         location = geolocator.reverse((lat, long))
     return location
 
-def get_flag(location) -> str:
-    """
-    Gets the flag of the location's country, if there is one
-    :param location: the current location to get the flag of
-    :return: the flag of the location as a string emoji
-    """
-    try: # Deal with cases where we are over an ocean or body of water without a country name
-        country = str(location).split(",")[-1].strip()
-        flag = countryflag.getflag(country)
-    except countryflag.core.exceptions.InvalidCountryError:
-        return "🌊"
-    return flag
-
 async def notify(coords, location) -> None:
     """
     Notify the user via desktop about the current location of the ISS
