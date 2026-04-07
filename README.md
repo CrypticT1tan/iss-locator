@@ -62,7 +62,7 @@ venv\Scripts\activate.bat
 python locator.py
 deactivate
 ```
-
+  
 Setting up the automation:
 
 MacOS (crontabs):
