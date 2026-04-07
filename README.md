@@ -35,18 +35,42 @@ Use package manager pip to install the following:
 ```bash
 pip install requests
 pip install geopy
-pip install countryflags
 pip install desktop-notifier
 ```
 
-## USAGE 🔧
-**Note:** Make sure your virtual environment is still activated while running this program.   
-
-
-When you are done with the program, you can deactivate the virtual environment with this command:
+When you are done with the installations, you can deactivate the virtual environment with this command:
 ```bash
 deactivate
 ```
+
+## USAGE 🔧
+
+Create a script with these commands:
+
+MacOS (script.sh):
+```bash
+cd <path_to_iss-locator>
+source venv/bin/activate
+python3 locator.py
+deactivate
+```
+
+Windows (script.bat):
+```bash
+cd <path_to_iss-locator>
+venv\Scripts\activate.bat
+python locator.py
+deactivate
+```
+
+Setting up the automation:
+
+MacOS (crontabs):
+```bash
+crontab -e
+```
+Once inside, use the crontab.guru website to determine the command and enter it into the Vim for the task to be automated.  
+Link: https://crontab.guru 
 
 ## CONTACT 📞
 For any questions, contact me here on Github, at gavinkiosco@gmail.com via email, or cryptict1tan on Discord.
@@ -54,5 +78,5 @@ For any questions, contact me here on Github, at gavinkiosco@gmail.com via email
 ## ATTRIBUTION ©️
 - ISS Locator API: http://open-notify.org/Open-Notify-API/ISS-Location-Now/
 - Geopy API: https://github.com/geopy/geopy
-- Countryflag: https://pypi.org/project/countryflag/
 - Desktop Notifier: https://github.com/samschott/desktop-notifier
+- Crontab.Guru: https://crontab.guru 
