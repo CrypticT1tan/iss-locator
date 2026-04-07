@@ -44,7 +44,6 @@ deactivate
 ```
 
 ## USAGE 🔧
-
 Create a script with these commands:
 
 MacOS (script.sh):
@@ -63,14 +62,8 @@ python locator.py
 deactivate
 ```
   
-Setting up the automation:
-
-MacOS (crontabs):
-```bash
-crontab -e
-```
-Once inside, use the crontab.guru website to determine the command and enter it into the Vim for the task to be automated.  
-Link: https://crontab.guru 
+For MacOS, you will need to use Crontabs to set up the automation.  
+For Windows, you will need to use the Task Scheduler instead.  
 
 ## CONTACT 📞
 For any questions, contact me here on Github, at gavinkiosco@gmail.com via email, or cryptict1tan on Discord.
