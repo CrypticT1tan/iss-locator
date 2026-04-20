@@ -1,6 +1,6 @@
 # ISS LOCATOR 🛰️
 
-Python program to locate the International Space Station. Can be scripted to run at regular intervals.
+Python program to locate the International Space Station. Can be scripted to run at regular intervals.  
 Inspired by Angela Yu's ISS Overhead Project
 
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow)
