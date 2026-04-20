@@ -1,17 +1,17 @@
 # ISS LOCATOR 🛰️
 
-Python program to locate the International Space Station. Can be scripted to run at regular intervals.  
-Inspired by Angela Yu's ISS Overhead Project
+Python program to locate the International Space Station with an interactive map.  
+Inspired by Angela Yu's ISS Overhead Project.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow)
-![Version](https://img.shields.io/badge/Version-1.0-blue)
+![Version](https://img.shields.io/badge/Version-2.0-blue)
 
 --- 
 
 ## FEATURES 🌟
 - Locates the International Space Station using coordinates converted to a physical address
-- File is scriptable to run at customizable intervals on both Mac and Windows
-- Sends desktop notifications of the ISS current location to the user whenever the script is run
+- Interactivate map of the world with zoom features and markers for the ISS and a given position
+- Sends desktop notifications of the ISS current location to the user whenever ISS is near/overhead the given position
 
 ## INSTALLATION ⚙️
 Clone the repository while in your desired directory:
@@ -37,29 +37,11 @@ Use package manager pip to install the following:
 pip install requests
 pip install geopy
 pip install desktop-notifier
+pip install countryflag
 ```
 
 When you are done with the installations, you can deactivate the virtual environment with this command:
 ```bash
-deactivate
-```
-
-## USAGE 🔧
-Create a script with these commands:
-
-MacOS (script.sh):
-```bash
-cd <path_to_iss-locator>
-source venv/bin/activate
-python3 locator.py
-deactivate
-```
-
-Windows (script.bat):
-```bash
-cd <path_to_iss-locator>
-venv\Scripts\activate.bat
-python locator.py
 deactivate
 ```
   
@@ -70,7 +52,7 @@ For Windows, you will need to use the Task Scheduler instead.
 For any questions, contact me here on Github, at gavinkiosco@gmail.com via email, or cryptict1tan on Discord.
 
 ## ATTRIBUTION ©️
-- ISS Locator API: http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+- ISS Current Location API: http://open-notify.org/Open-Notify-API/ISS-Location-Now/
 - Geopy API: https://github.com/geopy/geopy
 - Desktop Notifier: https://github.com/samschott/desktop-notifier
-- Crontab.Guru: https://crontab.guru 
+- Tkinter Map Viewer: https://github.com/TomSchimansky/TkinterMapView
