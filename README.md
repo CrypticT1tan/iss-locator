@@ -11,7 +11,8 @@ Inspired by Angela Yu's ISS Overhead Project.
 ## FEATURES 🌟
 - Locates the International Space Station using coordinates converted to a physical address
 - Interactivate map of the world with zoom features and markers for the ISS and a given position
-- Sends desktop notifications of the ISS current location to the user whenever ISS is near/overhead the given position
+- 
+- Desktop notifications for when the ISS is near you (COMING SOON)
 
 ## INSTALLATION ⚙️
 Clone the repository while in your desired directory:
@@ -37,16 +38,12 @@ Use package manager pip to install the following:
 pip install requests
 pip install geopy
 pip install desktop-notifier
-pip install countryflag
 ```
 
 When you are done with the installations, you can deactivate the virtual environment with this command:
 ```bash
 deactivate
 ```
-  
-For MacOS, you will need to use Crontabs to set up the automation.  
-For Windows, you will need to use the Task Scheduler instead.  
 
 ## CONTACT 📞
 For any questions, contact me here on Github, at gavinkiosco@gmail.com via email, or cryptict1tan on Discord.
