@@ -10,8 +10,7 @@ Inspired by Angela Yu's ISS Overhead Project.
 
 ## FEATURES 🌟
 - Locates the International Space Station using coordinates converted to a physical address
-- Interactivate map of the world with zoom features and markers for the ISS and a given position
-- 
+- Interactivate map of the world with zoom features and markers for the ISS
 - Desktop notifications for when the ISS is near you (COMING SOON)
 
 ## INSTALLATION ⚙️
