@@ -1,13 +1,14 @@
-import tkinter as tk
-import tkintermapview
 import asyncio
-import geopy
+import tkinter as tk
 
+import geopy
 import requests
+import tkintermapview
 from desktop_notifier import DesktopNotifier
-from geopy.geocoders import ArcGIS, Nominatim
-from geopy.exc import GeocoderUnavailable
 from geopy.adapters import AdapterHTTPError
+from geopy.exc import GeocoderUnavailable
+from geopy.geocoders import ArcGIS, Nominatim
+
 
 class Locator:
     def __init__(self):
