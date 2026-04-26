@@ -1,4 +1,3 @@
-import asyncio
 import tkinter as tk
 
 import geopy
@@ -85,7 +84,7 @@ class Locator:
         if new_lat and new_long:
             self.marker.set_position(new_lat, new_long)
             self.location.config(text=get_location(new_lat, new_long), font=(self.font, 10))
-        self.root.after(6000, self.update_iss_pos) # Update the position every 10 seconds
+        self.root.after(10000, self.update_iss_pos) # Update the position every 10 seconds
 
 def get_iss_coords() -> tuple:
     """
@@ -123,18 +122,6 @@ def get_location(lat, long) -> str:
             geolocator = ArcGIS()
             location = geolocator.reverse((lat, long)) # English is the default
         return location.address
-
-# async def notify_overhead(coords, location) -> None:
-#     """
-#     Notify the user via desktop that the ISS is overhead
-#     :param coords: the current coordinates of the ISS
-#     :param location: the current location of the ISS
-#     """
-#     notifier = DesktopNotifier(app_name="ISS Locator")
-#     await notifier.send(
-#         title="ISS Current Location", 
-#         message=f"{location}\nCoordinates: {coords[0]}, {coords[1]}"
-#     )
 
 if __name__ == "__main__":
     locator = Locator()
