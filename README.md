@@ -4,7 +4,7 @@ Python program to locate the International Space Station with an interactive map
 Inspired by Angela Yu's ISS Overhead Project.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow)
-![Version](https://img.shields.io/badge/Version-2.0-blue)
+![Version](https://img.shields.io/badge/Version-2.1-blue)
 
 --- 
 
