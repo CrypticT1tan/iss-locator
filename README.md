@@ -46,7 +46,6 @@ python3 locator.py
 ```
 
 On the map you will see a red marker labeled "ISS". That is the current position of the International Space Station.  
-In the textbox above the map, enter a city/state/province/country/address. A blue marker will show up at the location you specified.
 
 When you are done using the program, you can deactivate the virtual environment with this command:
 ```bash
