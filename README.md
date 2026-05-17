@@ -60,3 +60,4 @@ For any questions, contact me here on Github, at gavinkiosco@gmail.com via email
 - Geopy API: https://github.com/geopy/geopy
 - Desktop Notifier: https://github.com/samschott/desktop-notifier
 - Tkinter Map Viewer: https://github.com/TomSchimansky/TkinterMapView
+- Requests: https://requests.readthedocs.io/en/latest/
